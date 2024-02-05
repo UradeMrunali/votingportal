@@ -1,0 +1,65 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Add your background image */
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#page {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+    color: white;
+    padding: 10px;
+    position: relative;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#tagline {
+    font-size: 17px;
+    text-align: justify;
+    color: black; /* Text color */
+}
+
+#footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark semi-transparent background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
